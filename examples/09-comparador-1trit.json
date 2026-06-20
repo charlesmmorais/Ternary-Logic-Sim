@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "Library": [],
+  "Circuit": {
+    "Chips": [
+      {
+        "Kind": "Input",
+        "Composite": null,
+        "X": 60.0,
+        "Y": 90.0,
+        "Val": 1
+      },
+      {
+        "Kind": "Input",
+        "Composite": null,
+        "X": 60.0,
+        "Y": 230.0,
+        "Val": 0
+      },
+      {
+        "Kind": "Not",
+        "Composite": null,
+        "X": 260.0,
+        "Y": 230.0,
+        "Val": 0
+      },
+      {
+        "Kind": "AnyGate",
+        "Composite": null,
+        "X": 460.0,
+        "Y": 160.0,
+        "Val": 0
+      },
+      {
+        "Kind": "Output",
+        "Composite": null,
+        "X": 660.0,
+        "Y": 160.0,
+        "Val": 0
+      }
+    ],
+    "Wires": [
+      {
+        "From": 1,
+        "FromPin": 0,
+        "To": 2,
+        "ToPin": 0
+      },
+      {
+        "From": 0,
+        "FromPin": 0,
+        "To": 3,
+        "ToPin": 0
+      },
+      {
+        "From": 2,
+        "FromPin": 0,
+        "To": 3,
+        "ToPin": 1
+      },
+      {
+        "From": 3,
+        "FromPin": 0,
+        "To": 4,
+        "ToPin": 0
+      }
+    ]
+  }
+}

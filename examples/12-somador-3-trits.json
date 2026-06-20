@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "Library": [],
+  "Circuit": {
+    "Chips": [
+      {
+        "Kind": "ConstZero",
+        "Composite": null,
+        "X": 60.0,
+        "Y": 470.0,
+        "Val": 0
+      },
+      {
+        "Kind": "Input",
+        "Composite": null,
+        "X": 60.0,
+        "Y": 40.0,
+        "Val": 1
+      },
+      {
+        "Kind": "Input",
+        "Composite": null,
+        "X": 60.0,
+        "Y": 110.0,
+        "Val": 0
+      },
+      {
+        "Kind": "Input",
+        "Composite": null,
+        "X": 60.0,
+        "Y": 180.0,
+        "Val": 0
+      },
+      {
+        "Kind": "Input",
+        "Composite": null,
+        "X": 60.0,
+        "Y": 260.0,
+        "Val": -1
+      },
+      {
+        "Kind": "Input",
+        "Composite": null,
+        "X": 60.0,
+        "Y": 330.0,
+        "Val": 1
+      },
+      {
+        "Kind": "Input",
+        "Composite": null,
+        "X": 60.0,
+        "Y": 400.0,
+        "Val": 0
+      },
+      {
+        "Kind": "FullAdder",
+        "Composite": null,
+        "X": 320.0,
+        "Y": 60.0,
+        "Val": 0
+      },
+      {
+        "Kind": "FullAdder",
+        "Composite": null,
+        "X": 320.0,
+        "Y": 180.0,
+        "Val": 0
+      },
+      {
+        "Kind": "FullAdder",
+        "Composite": null,
+        "X": 320.0,
+        "Y": 300.0,
+        "Val": 0
+      },
+      {
+        "Kind": "Output",
+        "Composite": null,
+        "X": 580.0,
+        "Y": 60.0,
+        "Val": 0
+      },
+      {
+        "Kind": "Output",
+        "Composite": null,
+        "X": 580.0,
+        "Y": 180.0,
+        "Val": 0
+      },
+      {
+        "Kind": "Output",
+        "Composite": null,
+        "X": 580.0,
+        "Y": 300.0,
+        "Val": 0
+      },
+      {
+        "Kind": "Output",
+        "Composite": null,
+        "X": 580.0,
+        "Y": 420.0,
+        "Val": 0
+      }
+    ],
+    "Wires": [
+      {
+        "From": 1,
+        "FromPin": 0,
+        "To": 7,
+        "ToPin": 0
+      },
+      {
+        "From": 4,
+        "FromPin": 0,
+        "To": 7,
+        "ToPin": 1
+      },
+      {
+        "From": 0,
+        "FromPin": 0,
+        "To": 7,
+        "ToPin": 2
+      },
+      {
+        "From": 7,
+        "FromPin": 0,
+        "To": 10,
+        "ToPin": 0
+      },
+      {
+        "From": 2,
+        "FromPin": 0,
+        "To": 8,
+        "ToPin": 0
+      },
+      {
+        "From": 5,
+        "FromPin": 0,
+        "To": 8,
+        "ToPin": 1
+      },
+      {
+        "From": 7,
+        "FromPin": 1,
+        "To": 8,
+        "ToPin": 2
+      },
+      {
+        "From": 8,
+        "FromPin": 0,
+        "To": 11,
+        "ToPin": 0
+      },
+      {
+        "From": 3,
+        "FromPin": 0,
+        "To": 9,
+        "ToPin": 0
+      },
+      {
+        "From": 6,
+        "FromPin": 0,
+        "To": 9,
+        "ToPin": 1
+      },
+      {
+        "From": 8,
+        "FromPin": 1,
+        "To": 9,
+        "ToPin": 2
+      },
+      {
+        "From": 9,
+        "FromPin": 0,
+        "To": 12,
+        "ToPin": 0
+      },
+      {
+        "From": 9,
+        "FromPin": 1,
+        "To": 13,
+        "ToPin": 0
+      }
+    ]
+  }
+}

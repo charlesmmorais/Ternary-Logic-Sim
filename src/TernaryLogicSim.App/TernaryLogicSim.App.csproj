@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+    <LangVersion>latest</LangVersion>
+    <!-- NU1903: o aviso vem de 'Tmds.DBus.Protocol', dependência transitiva do
+         Avalonia usada SOMENTE no Linux (integração D-Bus). Este app roda no
+         Windows, onde esse código nem é carregado. Suprimimos o aviso aqui;
+         quando o Avalonia publicar uma versão com o pacote corrigido, basta
+         atualizar os PackageReference abaixo e remover esta linha. -->
+    <NoWarn>$(NoWarn);NU1903</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.0.10" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.0.10" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.10" />
+    <PackageReference Include="Avalonia.Fonts.Inter" Version="11.0.10" />
+    <!-- Diagnostics só em Debug (opcional, ajuda a inspecionar a UI) -->
+    <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TernaryLogicSim.Core\TernaryLogicSim.Core.csproj" />
+  </ItemGroup>
+
+</Project>

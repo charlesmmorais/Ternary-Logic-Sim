@@ -1,0 +1,25 @@
+# =============================================================
+#  .gitignore — projeto .NET / Avalonia (Ternary-Logic-Sim)
+# =============================================================
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+.vs/
+.idea/
+.vscode/
+*.DotSettings.user
+
+# Builds publicados
+publish/
+out/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Python (scripts de validação)
+__pycache__/
+*.pyc

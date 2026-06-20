@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "Library": [],
+  "Circuit": {
+    "Chips": [
+      {
+        "Kind": "Not",
+        "Composite": null,
+        "X": 300.0,
+        "Y": 160.0,
+        "Val": 0
+      },
+      {
+        "Kind": "Output",
+        "Composite": null,
+        "X": 520.0,
+        "Y": 160.0,
+        "Val": 0
+      }
+    ],
+    "Wires": [
+      {
+        "From": 0,
+        "FromPin": 0,
+        "To": 0,
+        "ToPin": 0
+      },
+      {
+        "From": 0,
+        "FromPin": 0,
+        "To": 1,
+        "ToPin": 0
+      }
+    ]
+  }
+}

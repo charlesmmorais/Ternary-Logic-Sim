@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "Library": [],
+  "Circuit": {
+    "Chips": [
+      {
+        "Kind": "Input",
+        "Composite": null,
+        "X": 60.0,
+        "Y": 40.0,
+        "Val": 1
+      },
+      {
+        "Kind": "Input",
+        "Composite": null,
+        "X": 60.0,
+        "Y": 120.0,
+        "Val": 0
+      },
+      {
+        "Kind": "Input",
+        "Composite": null,
+        "X": 60.0,
+        "Y": 220.0,
+        "Val": 1
+      },
+      {
+        "Kind": "Input",
+        "Composite": null,
+        "X": 60.0,
+        "Y": 300.0,
+        "Val": 0
+      },
+      {
+        "Kind": "ConstZero",
+        "Composite": null,
+        "X": 60.0,
+        "Y": 380.0,
+        "Val": 0
+      },
+      {
+        "Kind": "FullAdder",
+        "Composite": null,
+        "X": 300.0,
+        "Y": 90.0,
+        "Val": 0
+      },
+      {
+        "Kind": "FullAdder",
+        "Composite": null,
+        "X": 300.0,
+        "Y": 260.0,
+        "Val": 0
+      },
+      {
+        "Kind": "Output",
+        "Composite": null,
+        "X": 560.0,
+        "Y": 60.0,
+        "Val": 0
+      },
+      {
+        "Kind": "Output",
+        "Composite": null,
+        "X": 560.0,
+        "Y": 150.0,
+        "Val": 0
+      },
+      {
+        "Kind": "Output",
+        "Composite": null,
+        "X": 560.0,
+        "Y": 260.0,
+        "Val": 0
+      }
+    ],
+    "Wires": [
+      {
+        "From": 0,
+        "FromPin": 0,
+        "To": 5,
+        "ToPin": 0
+      },
+      {
+        "From": 2,
+        "FromPin": 0,
+        "To": 5,
+        "ToPin": 1
+      },
+      {
+        "From": 4,
+        "FromPin": 0,
+        "To": 5,
+        "ToPin": 2
+      },
+      {
+        "From": 1,
+        "FromPin": 0,
+        "To": 6,
+        "ToPin": 0
+      },
+      {
+        "From": 3,
+        "FromPin": 0,
+        "To": 6,
+        "ToPin": 1
+      },
+      {
+        "From": 5,
+        "FromPin": 1,
+        "To": 6,
+        "ToPin": 2
+      },
+      {
+        "From": 5,
+        "FromPin": 0,
+        "To": 7,
+        "ToPin": 0
+      },
+      {
+        "From": 6,
+        "FromPin": 0,
+        "To": 8,
+        "ToPin": 0
+      },
+      {
+        "From": 6,
+        "FromPin": 1,
+        "To": 9,
+        "ToPin": 0
+      }
+    ]
+  }
+}

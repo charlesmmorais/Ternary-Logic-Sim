@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "Library": [],
+  "Circuit": {
+    "Chips": [
+      {
+        "Kind": "Input",
+        "Composite": null,
+        "X": 60.0,
+        "Y": 160.0,
+        "Val": 0
+      },
+      {
+        "Kind": "ShiftUp",
+        "Composite": null,
+        "X": 280.0,
+        "Y": 90.0,
+        "Val": 0
+      },
+      {
+        "Kind": "ShiftDown",
+        "Composite": null,
+        "X": 280.0,
+        "Y": 230.0,
+        "Val": 0
+      },
+      {
+        "Kind": "Output",
+        "Composite": null,
+        "X": 500.0,
+        "Y": 90.0,
+        "Val": 0
+      },
+      {
+        "Kind": "Output",
+        "Composite": null,
+        "X": 500.0,
+        "Y": 230.0,
+        "Val": 0
+      }
+    ],
+    "Wires": [
+      {
+        "From": 0,
+        "FromPin": 0,
+        "To": 1,
+        "ToPin": 0
+      },
+      {
+        "From": 1,
+        "FromPin": 0,
+        "To": 3,
+        "ToPin": 0
+      },
+      {
+        "From": 0,
+        "FromPin": 0,
+        "To": 2,
+        "ToPin": 0
+      },
+      {
+        "From": 2,
+        "FromPin": 0,
+        "To": 4,
+        "ToPin": 0
+      }
+    ]
+  }
+}
